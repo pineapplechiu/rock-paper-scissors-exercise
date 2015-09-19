@@ -1,0 +1,68 @@
+body {
+  background-color: #211426; 
+  color: #F2EFDF;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+}
+
+h2 {
+  color: #656F8C;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-style: bold;
+  font-weight: 900;
+  font-size: 36px;
+  text-align: center;
+}
+
+h4 {
+  color: #9BBFAB;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+}
+
+.container {
+  display: block;
+  margin: auto;
+  width: 400px;
+  border: #413659 solid 3px;
+  padding: 1px 15px 30px 20px;
+  position: absolute;
+  top: calc(50% - 200px);
+  left: calc(50% - 200px);
+}
+
+.button-container {
+  padding-bottom: 20px;
+}
+
+.btn {
+  background-color: #9BBFAB;
+  color: #F2EFDF;
+  border-radius: 2px;
+  padding: 5px;
+  box-shadow: none;
+  border: none;
+  font-size: 20px;
+  margin-top: 5px;
+  margin-right: 5px;
+  width: 40px;
+  height: 40px;
+}
+
+.btn-replay {
+  background-color: #413659;
+  color: #F2EFDF;
+  border-radius: 2px;
+  padding: 10px;
+  box-shadow: none;
+  border: none;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-right: 10px;
+}
